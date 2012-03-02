@@ -16,5 +16,5 @@
     
     # Add FadeoutFlash Message Snippet to your application view file and layout.css.scss file.
     $ rake -T
-    $ rake fadeout_flash:view
-    $ rake fadeout_flash:add [f=haml]
+    $ rake fadeFlash:view
+    $ rake fadeFlash:add [f=haml]
