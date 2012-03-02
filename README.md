@@ -33,8 +33,8 @@ It's up to your preference with which one (rake or thor) you will perform a task
     
     # Add FadeoutFlash Message Snippet to your application view file and layout.css.scss file.
     $ rake -T
-    $ rake fade_flash:view
-    $ rake fade_lash:add [f=haml]
+    $ rake fadeflash:view  # Note: no "_" character
+    $ rake fadeflash:add [f=haml]   # Note: no"_" character
 
 ### Usage for Thor
 
