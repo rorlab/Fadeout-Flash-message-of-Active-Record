@@ -10,7 +10,23 @@ It's up to your preference with which one (rake or thor) you will perform a task
       (app/views/layouts/application.html.erb or app/views/layouts/application.html.haml)
       
     # if layout.css.scss file doesn't exist, it will be created in the app/assets/stylesheets/ directory.
-
+    
+    # move to the "lib/" directory
+    $[proj] cd lib
+    
+    # if there is no files in "lib/tasks/" directory, 
+      $[proj/lib] rm -rf tasks
+      $[proj/lib] git clone git://github.com/rorlab/Fadeout-Flash-message-of-Active-Record.git tasks
+    # else
+      $[proj/lib] git clone git://github.com/rorlab/Fadeout-Flash-message-of-Active-Record.git
+      $[proj/lib] mv Fadeout-Flash-message-of-Active-Record/* tasks/
+      $[proj/lib] rm -rf Fadeout-Flash-message-of-Active-Record
+    #end
+    
+    # And then, move to the root directory of project
+    $[proj/lib] cd ..
+    
+    
 ### Usage for Rake
 
     # First of all, you should place this rake file(fadeFlash.rake) in proj/lib/tasks/ directory.
