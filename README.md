@@ -21,7 +21,7 @@ It's up to your preference with which one (rake or thor) you will perform a task
       $[proj/lib] git clone git://github.com/rorlab/Fadeout-Flash-message-of-Active-Record.git
       $[proj/lib] mv Fadeout-Flash-message-of-Active-Record/* tasks/
       $[proj/lib] rm -rf Fadeout-Flash-message-of-Active-Record
-    #end
+    # end
     
     # And then, move to the root directory of project
     $[proj/lib] cd ..
@@ -44,3 +44,8 @@ It's up to your preference with which one (rake or thor) you will perform a task
     $ thor list
     $ thor fade_flash:help
     $ thor fade_flash:install [--format=haml]
+
+### Confirm Results
+
+    * app/views/layouts/application.html.erb or app/views/layouts/application.html.haml
+    * app/assets/stylesheets/layout.css.scss
