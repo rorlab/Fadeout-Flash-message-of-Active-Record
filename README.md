@@ -7,12 +7,11 @@
     # Application view template file should exist.
       (app/views/layouts/application.html.erb or app/views/layouts/application.html.haml)
       
-    # if layout.css.scss file doesn't exist
-    $ touch app/assets/stylesheets/layout.css.scss
+    # if layout.css.scss file doesn't exist, it will be created in the app/assets/stylesheets/ directory.
 
 ### Usage
 
-    # First of all, you should place this rake file(fadeFlash.rake) in proj/lib/tasks directory.
+    # First of all, you should place this rake file(fadeFlash.rake) in proj/lib/tasks/ directory.
     
     # Add FadeoutFlash Message Snippet to your application view file and layout.css.scss file.
     $ rake -T

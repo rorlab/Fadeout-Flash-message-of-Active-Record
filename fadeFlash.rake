@@ -102,7 +102,8 @@ namespace :fadeflash do
     end
 
     path = "app/assets/stylesheets/layout.css.scss"
-    open(path, 'a') do |f|
+    # a+ : Read and write mode. The file pointer is at the end of the file if the file exists. The file opens in the append mode. If the file does not exist, it creates a new file for reading and writing.
+    open(path, 'a+') do |f|
       f << %q{
 
 #flash-banner {
