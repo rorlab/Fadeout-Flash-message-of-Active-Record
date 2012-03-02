@@ -12,6 +12,8 @@
 
 ### Usage
 
+    # First of all, you should place this rake file(fadeFlash.rake) in proj/lib/tasks directory.
+    
     # Add FadeoutFlash Message Snippet to your application view file and layout.css.scss file.
     $ rake -T
     $ rake fadeout_flash:view
